@@ -1,0 +1,5 @@
+main = putStrLn lucky 7
+
+lucky :: (Integral a) => a -> String
+lucky 7 = "Lucky 7!"
+lucky x = "Sorry, not 7. Womp womp"
